@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+.background {
+    position: absolute;
+    background-image: url("../images/tumblr_n9rzyzm7Nl1ryb3eco1_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 10px 25%;
+    width: 50%;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.subtitle {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.center {
+    text-align: center
+}
+
+.btn {
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.btn-quote {
+    background-color: rgb(115, 158, 106);
+    background-color: rgba(115, 158, 106, 0.8);
+    border-color: rgb(115, 158, 106);
+    width: 150px;
+    font-size: 20px;
+    height: 50px;
+}
+
+.quote-box {
+    margin: 20px 10%;
+    font-size: 27px;
+    background-color: rgb(226, 226, 226);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.quote-author {
+    text-align: right;
+    font-style: italic;
+}
+
+.btn-tweet {
+    background-color: rgb(193, 212, 232);
+    border-color: rgb(193, 212, 232);
+    box-shadow: -2px 2px 2px #000;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock - FreeCodeCamp Zipline</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            Simple Pomodoro Clock
+        </div>
+        <div class="settings">
+            <div class="break">
+                <div class="title">
+                    Break Length
+                </div>
+                <div class="setting">
+                    <button class="minus" id='break-minus'>-</button>
+                    <span class="length" id='break-length'>5</span>
+                    <button class="plus" id='break-plus'>+</button>
+                </div>
+            </div>
+            <div class="session">
+                <div class="title">
+                    Session Length
+                </div>
+                <div class="setting">
+                    <button class="minus" id='session-minus'>-</button>
+                    <span class="length" id='session-length'>25</span>
+                    <button class="plus" id='session-plus'>+</button>
+                </div>
+            </div>
+        </div>
+        <div class="timer">
+            <div class="time">
+                25:00
+            </div>
+            <div class="bar">
+                <div class="fill"></div>
+            </div>
+            <button class="start">START</button>
+            <button class="reset">RESET</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

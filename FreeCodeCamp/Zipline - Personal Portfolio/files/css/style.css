@@ -1,0 +1,233 @@
+/* ---------Navbar------- */
+
+.navbar .container {
+  background-color: rgb(192,192,192);
+}
+
+.navbar-default {
+  background-color: rgb(192,192,192);
+  background-color: rgba(192,192,192, 0.8);
+  border-bottom: solid 1px;
+  border-color: #777;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #000;
+}
+
+.navbar-right {
+  background-color: #B0AFAF;
+}
+
+.navbar-default .navbar-brand{
+  border-bottom: 2px solid #777;
+  color: #000;
+}
+
+.navbar-brand:hover, .navbar li:hover {
+  background-color: #E7E7E7 !important;
+}
+
+/* -------- Intro Section ---------- */
+
+.block-intro {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.intro-title {
+  color: #776D31;
+  font-size: 50px;
+}
+
+.intro-slogan {
+  font-size: 30px;
+  color: #000;
+}
+
+.block-intro hr {
+  border: 1px solid;
+  border-color: rgb(255,255,255);
+  border-color: rgba(255,255,255,0.2);
+  margin: 13px 0;
+  box-shadow: 1px 1px 1px #444;
+}
+
+/* Social Buttons */
+
+.intro-social a, .contact-buttons a {
+  margin-bottom: 20px;
+  background-color: #999;
+  border: 2px solid #888;
+  font-size: 18px;
+  color: #000;
+  box-shadow: 2px 2px;
+  letter-spacing: 2px;
+}
+
+.intro-social a:hover, .contact-buttons a:hover {
+  background: #000;
+  color: #FFF;
+  border-color: #555;
+  box-shadow: 2px 2px 2px #000;
+  transform: scale(1.1);
+  transition: all 0.2s ease 0s;
+}
+
+@media(max-width: 768px) {
+    .intro-social > ul > li {
+        display: block;
+    }
+}
+
+/* --------- About Section --------- */
+
+.block-about, .block-projects, .block-contact {
+    padding-top: 80px;
+}
+
+.about-text > h1, .projects-title {
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+.about-text > p, .projects-desc {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.about-avatar {
+    margin-top: 80px;
+}
+
+.about-avatar > img {
+    max-width: 350px;
+}
+
+/* --------- Portfolio ---------- */
+
+.projects-row {
+    margin-bottom: 30px;
+}
+
+.project-container {
+    border: 1px solid #CCC;
+    border-color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 20px;
+    transition: box-shadow 0.5s;
+}
+
+.project-container:hover {
+    box-shadow: 6px 10px 6px #000;
+}
+
+.project-bg {
+    background-color: rgba(0, 0, 0, 0.8);
+    max-width: 400px;
+}
+
+.project-image-container {
+    position: relative;
+}
+
+.project-hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    opacity: 0;
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.project-hover:hover {
+    opacity: 1;
+}
+
+.project-hover > i {
+    position: relative;
+    top: 40%;
+}
+
+.project-caption {
+    height: 70px;
+    color: #FFF;
+    text-align: center;
+}
+
+.project-caption > h3 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.project-caption > p {
+    font-style: italic;
+}
+
+/* ------- Contact Section --------- */
+
+.contact-details {
+    font-size: 36px;
+    color: #000;
+}
+
+.contact-social > li {
+    display: block;
+}
+
+/* -------- Footer --------- */
+
+.bg-footer {
+    background-color: #CCC;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-dot {
+    display: inline;
+    color: #000;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+.copyright {
+    color: #777;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* ---------Background Images ---------*/
+
+.bg-fixed {
+  min-height: 840px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.bg-overlay {
+    background-color: rgba(255, 255, 255, 0.1);
+    background-size: cover;
+    min-height: 840px;
+}
+
+.bg-intro {
+  background-image: url('https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg');
+}
+
+.bg-about {
+  background-image: url('https://41.media.tumblr.com/eb2382a5a4c996cfdab27bc0d1eb51ff/tumblr_nt5umxS1FY1ud7rr3o1_1280.jpg')
+}
+
+.bg-portfolio {
+    background-image: url('https://41.media.tumblr.com/92e61775d4c3edcc5145936e3703d125/tumblr_nt5uo9fH9y1ud7rr3o1_1280.jpg');
+}
+
+.bg-contact {
+    background-image: url('https://41.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg')
+}
