@@ -1,2 +1,2 @@
-# Trainings
+# Road To Programming
 Some of the projects I have done during programming courses, ...
